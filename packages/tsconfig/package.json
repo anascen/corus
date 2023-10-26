@@ -1,35 +1,37 @@
 {
-  "name": "@ascen/corus-tsconfig",
-  "version": "1.0.0",
-  "description": "A Typescript configuration by ascen.",
-  "main": "./tsconfig.json",
-  "engines": {
-    "node": ">=18"
-  },
-  "files": ["./tsconfig.json"],
-  "exports": "./tsconfig.json",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anascen/corus.git"
-  },
-  "keywords": [
-    "typescript",
-    "node",
-    "ascen",
-    "tsconfig",
-    "config",
-    "configuration",
-    "ts",
-    "tsc",
-    "types"
-  ],
-  "author": "ascen",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anascen/corus/issues"
-  },
-  "homepage": "https://github.com/anascen/corus/packages/tsconfig#readme",
-  "devDependencies": {
-    "typescript": "^5.2.2"
-  }
+    "name": "@ascen/corus-tsconfig",
+    "version": "1.0.0",
+    "description": "A Typescript configuration by ascen.",
+    "main": "./tsconfig.json",
+    "engines": {
+        "node": ">=18"
+    },
+    "files": [
+        "./tsconfig.json"
+    ],
+    "exports": "./tsconfig.json",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/anascen/corus.git"
+    },
+    "keywords": [
+        "typescript",
+        "node",
+        "ascen",
+        "tsconfig",
+        "config",
+        "configuration",
+        "ts",
+        "tsc",
+        "types"
+    ],
+    "author": "ascen",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/anascen/corus/issues"
+    },
+    "homepage": "https://github.com/anascen/corus/packages/tsconfig#readme",
+    "devDependencies": {
+        "typescript": "^5.2.2"
+    }
 }

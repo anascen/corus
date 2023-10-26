@@ -1,0 +1,32 @@
+{
+    "name": "corus",
+    "version": "1.0.0",
+    "description": "A collection by ascen.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/anascen/corus.git"
+    },
+    "keywords": [
+        "corus",
+        "ascen"
+    ],
+    "author": "ascen",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/anascen/corus/issues"
+    },
+    "homepage": "https://github.com/anascen/corus#readme",
+    "devDependencies": {
+        "husky": "^8.0.3",
+        "lint-staged": "^15.0.2",
+        "prettier": "^3.0.3"
+    },
+    "lint-staged": {
+        "**/*": "prettier --write --ignore-unknown"
+    }
+}
