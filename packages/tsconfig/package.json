@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "A Typescript configuration by ascen.",
     "main": "./tsconfig.json",
+    "publishConfig": {
+        "access": "public"
+    },
     "engines": {
         "node": ">=18"
     },
