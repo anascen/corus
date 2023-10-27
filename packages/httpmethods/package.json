@@ -1,6 +1,6 @@
 {
     "name": "@ascen/corus-httpmethods",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "An Http methods in lowercase package by ascen.",
     "main": "build/index.js",
     "type": "module",
@@ -15,7 +15,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/anascen/corus/packages/httpmethods"
+        "url": "https://github.com/anascen/corus/tree/main/packages/httpmethods"
     },
     "keywords": [
         "ascen",
@@ -35,6 +35,7 @@
         "del-cli": "^5.1.0",
         "typescript": "^5.2.2"
     },
+    "homepage": "https://github.com/anascen/corus/packages/httpmethods#readme",
     "publishConfig": {
         "access": "public"
     }
