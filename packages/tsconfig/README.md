@@ -25,8 +25,9 @@ pnpm add --save-dev @ascen/corus-tsconfig
     "compilerOptions": {
         "outDir": "./build"
     }
-    ... // Other configuarations ...
+    // ... Other configuarations ... //
 }
 ```
+Replace into your tsconfig.json file.
 
 > A Typescript configuration provider package by ascen.
