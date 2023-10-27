@@ -1,6 +1,6 @@
 {
     "name": "@ascen/corus-tsconfig",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "A Typescript configuration by ascen.",
     "main": "tsconfig.json",
     "publishConfig": {
@@ -14,7 +14,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/anascen/corus/packages/tsconfig"
+        "url": "https://github.com/anascen/corus/tree/main/packages/tsconfig"
     },
     "keywords": [
         "typescript",
