@@ -30,7 +30,6 @@
     "license": "MIT",
     "devDependencies": {
         "@ascen/corus-tsconfig": "^1.0.0",
-        "@sindresorhus/tsconfig": "^5.0.0",
         "@types/node": "^20.8.9",
         "typescript": "^5.2.2"
     }

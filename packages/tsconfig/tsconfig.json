@@ -9,7 +9,6 @@
         "declarationMap": true,
         "emitDeclarationOnly": true,
         "sourceMap": true,
-        "inlineSourceMap": true,
         "newLine": "lf",
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
