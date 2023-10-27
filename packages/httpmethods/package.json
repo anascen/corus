@@ -1,15 +1,16 @@
 {
     "name": "@ascen/corus-httpmethods",
     "version": "1.0.0",
-    "type": "module",
     "description": "An Http methods in lowercase package by ascen.",
     "main": "build/index.js",
+    "type": "module",
     "exports": "./build/index.js",
     "files": [
-        "build/**/*"
+        "build/**/*",
+        "../../LICENSE"
     ],
     "scripts": {
-        "test": "npm run build",
+        "test": "npm run build && node ./build/index.js",
         "build": "del-cli build && tsc"
     },
     "repository": {
@@ -29,8 +30,9 @@
     "author": "ascen",
     "license": "MIT",
     "devDependencies": {
-        "@ascen/corus-tsconfig": "^1.0.0",
+        "@ascen/corus-tsconfig": "^1.1.0",
         "@types/node": "^20.8.9",
+        "del-cli": "^5.1.0",
         "typescript": "^5.2.2"
     }
 }

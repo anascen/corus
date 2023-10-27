@@ -1,18 +1,15 @@
 {
     "compilerOptions": {
-        "lib": ["DOM", "DOM.Iterable", "ESNext"],
         "jsx": "react",
-        "moduleDetection": "force",
         "module": "Node16",
         "moduleResolution": "Node16",
+        "moduleDetection": "force",
+        "lib": ["DOM", "DOM.Iterable", "ES2022"],
+        "resolveJsonModule": false,
         "declaration": true,
-        "declarationMap": true,
-        "emitDeclarationOnly": true,
-        "sourceMap": true,
         "newLine": "lf",
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
-        "forceConsistentCasingInFileNames": true,
         "strict": true,
         "pretty": true,
         "stripInternal": true,
@@ -26,6 +23,7 @@
         "target": "ESNext",
         "noEmitOnError": true,
         "useDefineForClassFields": true,
+        "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true
     }
 }
