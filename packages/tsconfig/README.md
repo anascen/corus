@@ -13,7 +13,7 @@ npm i --save-dev @ascen/corus-tsconfig
 yarn add --dev @ascen/corus-tsconfig
 ```
 
-- **Using npm:**
+- **Using pnpm:**
 ```
 pnpm add --save-dev @ascen/corus-tsconfig
 ```
