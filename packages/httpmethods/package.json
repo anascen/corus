@@ -1,0 +1,37 @@
+{
+    "name": "@ascen/corus-httpmethods",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "An Http methods in lowercase package by ascen.",
+    "main": "build/index.js",
+    "exports": "./build/index.js",
+    "files": [
+        "build/**/*"
+    ],
+    "scripts": {
+        "test": "npm run build",
+        "build": "del-cli build && tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/anascen/corus/packages/httpmethods"
+    },
+    "keywords": [
+        "ascen",
+        "http",
+        "methods",
+        "get",
+        "post",
+        "delete",
+        "corus",
+        "method"
+    ],
+    "author": "ascen",
+    "license": "MIT",
+    "devDependencies": {
+        "@ascen/corus-tsconfig": "^1.0.0",
+        "@sindresorhus/tsconfig": "^5.0.0",
+        "@types/node": "^20.8.9",
+        "typescript": "^5.2.2"
+    }
+}

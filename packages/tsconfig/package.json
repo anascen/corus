@@ -2,7 +2,7 @@
     "name": "@ascen/corus-tsconfig",
     "version": "1.0.0",
     "description": "A Typescript configuration by ascen.",
-    "main": "./tsconfig.json",
+    "main": "tsconfig.json",
     "publishConfig": {
         "access": "public"
     },
@@ -10,9 +10,8 @@
         "node": ">=18"
     },
     "files": [
-        "./tsconfig.json"
+        "tsconfig.json"
     ],
-    "exports": "./tsconfig.json",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/anascen/corus.git"
